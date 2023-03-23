@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(236, 243, 236);
+
+}
+
+.titulo {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+}
+
+
+.bo {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 33;
+    font-size: 22;
+
+
+}
+
+.img {
+    position: absolute;
+    left: 33;
+    border-top: solid;
+    border-color: black;
+    border-bottom: solid;
+    border-color: black;
+    border-left: solid;
+    border-color: black;
+    border-right: solid;
+    border-color: black;
+}
+
+#posiscion_imagen {
+    position: absolute;
+    right: 1060;
+    position: absolute;
+    top: 80;
+}
+
+
+#posision {
+    position: absolute;
+    left: 1361;
+    position: absolute;
+    top: 80;
+    border-top: solid;
+    border-color: black;
+    border-bottom: solid;
+    border-color: black;
+    border-left: solid;
+    border-color: black;
+    border-right: solid;
+    border-color: black;
+}
+
+.btn button{
+    font-size: 19;
+    border-radius: 90px;
+    padding: 3px;
+    background-color: coral;
+    text-decoration: none;
+    color: rgb(236, 243, 236);
+    text-align: center;
+}
+
+.btn button:hover {
+    transform: scale(1.2);  
+    transition: all 0.4s;
+}
